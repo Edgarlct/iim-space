@@ -8,7 +8,6 @@ export default function SpaceInvader(){
         const script = document.createElement("script");
 
         script.src = "/index.js";
-        script.async = true;
 
         document.body.appendChild(script);
 

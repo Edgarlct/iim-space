@@ -1,5 +1,6 @@
 import {Box} from "@mui/material";
 import "./style.css";
+import loader from "/public/assets/images/loader.gif";
 import {useEffect} from "react";
 import {useNavigate} from "react-router-dom";
 
@@ -13,6 +14,6 @@ export default function TransitionScreenLoading() {
     }, []);
 
     return <Box sx={{height:"100vh", width:"100vw", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <img src="/public/assets/images/loader.gif" alt={"loader"} className={"imgLoader"}/>
+        <img src={loader} alt={"loader"} className={"imgLoader"}/>
     </Box>
 }
