@@ -1,0 +1,81 @@
+.bold {
+  font-weight: 700;
+}
+
+.background {
+  background-image: url("/public/assets/images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.background-square {
+  position: relative;
+  background-image: url("/public/assets/images/border-square.svg");
+  width: 90%;
+  max-width: 1300px;
+  height: inherit;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 4rem;
+}
+
+.annim {
+  opacity: 0;
+  animation: fadein 2s;
+  animation-fill-mode: forwards;
+}
+
+.container-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 60%;
+  gap: 1rem;
+}
+.container-text .text-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 500px;
+  margin-top: 4px;
+}
+
+.container-button {
+  position: absolute;
+  max-width: 1300px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  bottom: 10%;
+  right: 0;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.imgLoader {
+  width: 900px;
+}
+
+.arrow {
+  color: #70A6C7;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */

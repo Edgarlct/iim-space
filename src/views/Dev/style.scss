@@ -1,0 +1,143 @@
+.halfWidth {
+  flex:1;
+  display: flex;
+}
+.dev {
+  flex: 1;
+  display: flex;
+  gap: 1rem;
+}
+
+.elFlex{
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  >div {
+    width: 50px;
+    height: 50px;
+    background-image: url("/public/assets/images/fusible.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.container-pos {
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  height: calc(100% - 30px);
+  left: 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  .elPos {
+    width: 80px;
+    height: 80px;
+    background-image: url("/public/assets/images/pannel.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+.left-part {
+  width: fit-content;
+  max-width: 50%;
+  max-height: 80%;
+  height: inherit;
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+
+  .img-border {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: left;
+    pointer-events: none;
+  }
+
+  .style-editing {
+    padding: 5rem 2rem 5rem 5rem;
+    width: 100%;
+
+    .edit-section {
+      padding: 0 24px;
+      width: 100%;
+    }
+  }
+}
+
+.container-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  width: 80%;
+  gap: 1rem;
+  padding: 5rem 2rem;
+
+  .text-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 500px;
+  }
+}
+
+.right-part {
+  width: 50%;
+  max-height: 80%;
+  height: inherit;
+  margin: 0 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  position: relative;
+
+  .container-fusible {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 15px;
+    display: flex;
+
+    .fusible, .container-pos {
+      padding: 30px 30px 70px;
+    }
+
+    .fusible {
+      z-index: 2;
+    }
+
+    .img-border {
+      position: absolute;
+      width: 100%;
+      object-fit: contain;
+      object-position: left;
+      pointer-events: none;
+      left: 0;
+    }
+  }
+
+  .container-law {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    width: 100%;
+  }
+}

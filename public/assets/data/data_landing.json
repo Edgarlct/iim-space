@@ -1,0 +1,22 @@
+{
+  "jv": {
+    "title": "</Jeux_videos/>",
+    "description": "Avec l'apparition de nouvelles plateformes (smartphones, réseaux sociaux, VR...) et le développement du digital (Xbox, Playstation...), le jeu-vidéo ne cesse de se réinventer depuis quelques années. \nL'axe jeu-vidéo vous apprend à devenir les maîtres dans ce domaine. Du game design au game programming en passant par le game art, toutes les pratiques qui concernent la création d'un jeu-vidéo seront abordés dans les programmes.\n\nVous êtes créatif, polyvalent et portez de l'intérêt pour le jeu-vidéo en général ?\n\nLa planète jeu-vidéo est faite pour vous ! \n"
+  },
+  "cd": {
+    "title": "</Création_design/>",
+    "description": "Nous faisons face depuis plusieurs années à l'évolution des codes visuels. Toujours se réinviter dans sa communication est alors devenu primordial pour une entreprise moderne.\nTous les moyens de séduire les consommateurs sont bons à être utilisés ! \nDans cet axe, vous traiterez de tout ce qui touche au design, de la direction artistique d'un projet à la conception de son logo en passant par le motion design, tous les sujets sont abordés pour que vous deveniez des maîtres du design !\n\nVous êtes créatif, force de proposition et avez des bases dans le graphisme ?\n\nLa planète Création Design est faite pour vous !\n"
+  },
+  "cdeb": {
+    "title": "</Com_digitale/>",
+    "description": "La communication digitale est partout. Depuis maintenant près de 20 ans, le comportement et les attentes des consommateurs ont changé, il était donc nécessaire de s'adapter.\nToutes les entreprises sont désormais amenées à penser à une stratégie digitale adaptée aux nouveaux besoins !\nCet axe aborde toutes les pratiques qui touchent à la stratégie digitale, de l'analyse des comportements à la génération de lead en passant par le branding, tout y est pour que vous deveniez de bons communicants !\n\nVous êtes créatif, curieux et avez de l'appétence pour le digital ?\n\nLa planète Communication Digitale est faite pour vous !\n"
+  },
+  "cdi": {
+    "title": "</Dev/>",
+    "description": "Les comportements des consommateurs ont énormément évolué depuis plusieurs années ce qui a amené les entreprises à s'adapter.\nParmi ces changements, font partie le développement de nouvelles plateformes (web, mobile...) \nLe besoin dans le secteur du développement est énorme dû à la nécessité pour beaucoup d'entreprises de constamment innover.\nL'axe Coding & Digital Innovation aborde tous les langages pour mettre en forme les réalisations les plus complexes, du front au back pour le web en passant par du Swift UI pour de développement mobile, le programme est plus complet !\n\nVous possédez un bon esprit d'analyse, aimez travailler en équipe et avez de l'appétence pour les nouvelles technologies ?\n\nLa planète Coding & Digital Innovation est faite pour vous !\n"
+  },
+  "3d": {
+    "title": "</3D/>",
+    "description": "L'animation 3D est au cœur du secteur de l'image dans les entreprises modernes. Que ce soit dans des campagnes de communication, pour des jeux-vidéos ou encore pour des séries d'animations, le potentiel de l'animation 3D est infini !\nL'axe animation 3D traite de A à Z de la modélisation jusqu'à l'animation d'un objet, d'un personnage ou d'autres choses en 3D.\n\nVous êtes créatif et imaginatif, avez une vision large de la production et aimez travailler en équipe ?\n\nLa planète Animation 3D est faite pour vous !\n"
+  }
+}
