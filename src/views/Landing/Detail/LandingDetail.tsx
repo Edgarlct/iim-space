@@ -26,11 +26,11 @@ export default function LandingDetail() {
             </IconButton>
         </div>
         <Box className="container-planet-detail">
-            <div className="planet active"><img src={`/public/assets/images/planet-${axe}.png`} alt="planet cdeb"/></div>
+            <div className="planet active"><img src={`/assets/images/planet-${axe}.png`} alt="planet cdeb"/></div>
         </Box>
         <Box className="text-container">
             <Box className="text">
-                <img src="/public/assets/images/border-text.svg" alt="border text" className="border-text"/>
+                <img src="/assets/images/border-text.svg" alt="border text" className="border-text"/>
                 <Typography variant={"h6"}>{data.title}</Typography>
                 <Typography variant={"body1"}>{data.description}</Typography>
             </Box>

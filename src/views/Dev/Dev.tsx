@@ -28,7 +28,7 @@ export default function Dev(){
 
     return <Box sx={{display:"flex", p:1, height:"100vh", width:"100vw", justifyContent:"center", alignItems:"center"}}>
         <Box className="left-part">
-            <img src="/public/assets/images/border-square-cut.svg" alt="" className="img-border"/>
+            <img src="/assets/images/border-square-cut.svg" alt="" className="img-border"/>
             <Box className="container-title">
                 <Typography variant={"subtitle2"}>{"</"}</Typography>
                 <div className={"text-stack"}>
@@ -55,7 +55,7 @@ export default function Dev(){
         </Box>
         <Box className="right-part">
             <Box className="container-fusible">
-                <img src="/public/assets/images/border-square-rect.svg" alt="square border" className={"img-border"}/>
+                <img src="/assets/images/border-square-rect.svg" alt="square border" className={"img-border"}/>
                 <Box className="fusible dev" id={"dev-el"}>
                     <div className="elFlex"><div></div></div>
                     <div className="elFlex"><div></div></div>

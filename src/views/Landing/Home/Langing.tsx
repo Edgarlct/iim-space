@@ -108,19 +108,19 @@ export default function Landing() {
     return <Box className="background-landing">
         <Typography variant={"h1"}>Galaxie des Axes</Typography>
         <Box className="container-planet">
-            <img src="/public/assets/images/border-rect-white.svg" alt="border" className="border"/>
+            <img src="/assets/images/border-rect-white.svg" alt="border" className="border"/>
             <div onClick={()=>{handleChangeCarousel("right")}} className={"arrow arrow-left"}>
-                <img src="/public/assets/images/arrow-left.svg" alt="arrow left"/>
+                <img src="/assets/images/arrow-left.svg" alt="arrow left"/>
             </div>
             <div onClick={()=>{handleChangeCarousel("left")}} className={"arrow arrow-right"}>
-                <img src="/public/assets/images/arrow-right.png" alt="arrow right"/>
+                <img src="/assets/images/arrow-right.png" alt="arrow right"/>
             </div>
             <div id="container-planet" className="container">
-                <div className="cd planet left" onClick={()=>handleClick("cd")}><img src="/public/assets/images/planet-crea.png" alt="planet cdeb"/></div>
-                <div className="cdeb planet active" onClick={()=>handleClick("cdeb")}><img src="/public/assets/images/planet-cdeb.png" alt="planet cdeb"/></div>
-                <div className="cdi planet right" onClick={()=>handleClick("cdi")}><img src="/public/assets/images/planet-cdi.png" alt="planet cdeb"/></div>
-                <div className="3d planet" onClick={()=>handleClick("3d")}><img src="/public/assets/images/planet-3d.png" alt="planet 3d"/></div>
-                <div className="jv planet" onClick={()=>handleClick("jv")}><img src="/public/assets/images/planet-jv.png" alt="planet jv"/></div>
+                <div className="cd planet left" onClick={()=>handleClick("cd")}><img src="/assets/images/planet-crea.png" alt="planet cdeb"/></div>
+                <div className="cdeb planet active" onClick={()=>handleClick("cdeb")}><img src="/assets/images/planet-cdeb.png" alt="planet cdeb"/></div>
+                <div className="cdi planet right" onClick={()=>handleClick("cdi")}><img src="/assets/images/planet-cdi.png" alt="planet cdeb"/></div>
+                <div className="3d planet" onClick={()=>handleClick("3d")}><img src="/assets/images/planet-3d.png" alt="planet 3d"/></div>
+                <div className="jv planet" onClick={()=>handleClick("jv")}><img src="/assets/images/planet-jv.png" alt="planet jv"/></div>
             </div>
         </Box>
         <Typography variant={"h4"} id={"title-planet"} sx={{textTransform:"uppercase", textAlign:"center", padding:"0 2rem 0 3.5rem"}}>CDEB</Typography>
@@ -134,7 +134,7 @@ export default function Landing() {
         <Box sx={{display:"flex", justifyContent:"space-between", width:"90%", margin:"0 auto"}}>
             <Typography variant={"h4"}>#spaceimm2022</Typography>
             <div className={"link-container"}>
-                <img src="/public/assets/images/sound.gif" alt="sound animation"/>
+                <img src="/assets/images/sound.gif" alt="sound animation"/>
                 <Link variant={"h4"} href={"https://www.instagram.com/iim_paris"} className={"link"}>instagram</Link>
                 <Link variant={"h4"} href={"https://twitter.com/iimparis"} className={"link"}>twitter</Link>
                 <Link variant={"h4"} href={"https://www.youtube.com/user/chaineIIM"} className={"link"}>youtube</Link>

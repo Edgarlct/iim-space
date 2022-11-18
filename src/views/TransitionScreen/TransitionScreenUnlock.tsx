@@ -13,6 +13,6 @@ export default function TransitionScreenUnlock() {
     }, []);
 
     return <Box sx={{height:"100vh", width:"100vw", display:"flex", alignItems:"center", justifyContent:"center"}}>
-        <img src="/public/assets/images/unloack.gif" alt={"loader"} className={"imgLoader"}/>
+        <img src="/assets/images/unloack.gif" alt={"loader"} className={"imgLoader"}/>
     </Box>
 }
